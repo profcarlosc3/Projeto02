@@ -6,6 +6,14 @@
     <title>CalculadoraJS</title>
 </head>
 <body>
-    
+    <h1>Minha Calculadora</h1>
+    <!--Criando Eventos em HTML-->
+    <button onclick="abrir('popup.html')">Calcular</button>
+
+    <script>
+        function abrir(URL) {
+            window.open(URL, 'janela', 'width=400, height=500, top=100, left=699, scrollbars=no, status=no, toolbar=no, location=no, menubar=no, resizable=no, fullscreen=no');
+        }
+    </script>
 </body>
 </html>
